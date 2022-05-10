@@ -11,5 +11,5 @@ validate_per_epoch = 50
 clamp = 0.15
 clamp_activation = "ATAN"
 
-weight_path = "/content/weight"
-result_path = "/content/result"
+weight_path = "/content/FastFlow/weight"
+result_path = "/content/FastFlow/result"
