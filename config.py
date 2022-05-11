@@ -1,4 +1,4 @@
-mvtec_path = "/content/drive/MyDrive/boschanomaly"
+mvtec_path = "/content/mvtec_anomaly"
 # "cait_m48_448" or "deit_base_distilled_patch16_384" is supported.
 backbone = "cait_m48_448"
 device = "cuda:0"
