@@ -7,14 +7,14 @@ import torchvision.io as tvio
 import torchvision.transforms as T
 
 class MVTec(Dataset):
+    CATEGORY = [
+        "bottle"
+    ]
+
 #     CATEGORY = [
 #         "bottle", "cable", "capsule", "carpet", "grid", "hazelnut", "leather", "metal_nut", 
 #         "pill", "screw", "tile", "toothbrush", "transistor", "wood", "zipper"
 #     ]
-
-    CATEGORY = [
-        "boschanomaly"
-    ]
     
     ImageSize = {
         "cait_m48_448": 448,
